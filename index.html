@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화상회의 OHO!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ex.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/hambur.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/slide.js"></script>
+    <script defer src="js/slide2.js"></script>
+    <script defer src="js/tab.js"></script>
+    <script defer src="js/tab_2.js"></script>
+    <script defer src="js/tab_3.js"></script>
+    <script defer src="js/ex.js"></script>
+    <script defer src="js/sti.js"></script>
+
+
+
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+    <div id="wrap">
+        <header id="header_wrap" class="clearfix">
+            <div id="header">
+                <div class="main_cotainer">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" alt="OHO"></a></div>
+                <nav class="menu">
+                    <ul class="nav_bar">
+                        <li><a href="#Solutions">솔루션</a></li>
+                        <li><a href="#Features">기능</a></li>
+                        <li><a href="#Pricing">요금</a></li>
+                        <li><a href="javascript:void(0);">Open API</a></li>
+                        <li><a href="#company">기업정보</a></li>
+                        <li><a href="#sales">고객지원</a></li>
+                        <li><a href="javascript:void(0);">이용방법</a></li>
+                    </ul>
+                </nav>
+                    <nav class="nav_bar_right">
+                        <ul class="nav_bar_common">
+                            <li>
+                                <button  class="nav_btn signin">로그인</button>
+                            </li>
+                                <li>
+                                    <select class="language_select_box">
+                                        <option value="ko">한국어</option>
+                                        <option value="en">ENG</option>
+                                        <option value="ja">日本語</option>
+                                        <option value="zh">简化字</option>
+                                        <option value="ch">正體字</option>
+                                        <option value="es">español</option>
+                                        <option value="ar">بالعربي</option>
+                                    </select>
+                                </li>
+                        </ul>
+                    </nav>
+                    <div class="hamburger"  onclick="openNav()"><i class="fas fa-bars"></i></div>
+                    <div id="mySidenav" class="sidenav">
+                        <div class="X_icon"><a href="javascript:void(0);" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a></div>
+                        <ul class="nav_bar_m">
+                            <li><a href="#Solutions">솔루션</a></li>
+                            <li><a href="#Features">기능</a></li>
+                            <li><a href="#Pricing">요금</a></li>
+                            <li><a href="javascript:void(0);">Open API</a></li>
+                            <li><a href="#company">기업정보</a></li>
+                            <li><a href="#sales">고객지원</a></li>
+                            <li><a href="javascript:void(0);">이용방법</a></li>
+                            <li>
+                                <p class="language_setting">언어 설정</p>
+                                <select class="language_select_box_m">
+                                    <option value="ko">한국어</option>
+                                    <option value="en">ENG</option>
+                                    <option value="ja">日本語</option>
+                                    <option value="zh">简化字</option>
+                                    <option value="ch">正體字</option>
+                                    <option value="es">español</option>
+                                    <option value="ar">بالعربي</option>
+                                </select>
+                            </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="contents_wrap_1" class="clearfix">
+            <article class="contents_1">
+
+                <div class="main_section top_main_section">
+                    <div class="middle_container">
+                        <div class="top_text_group">
+                            <div class="top_first_text">
+                                <h4 class="top_title">
+                                    Korea No.1 Ontact 플랫폼
+                                    <br>
+                                    OHO! 플랫폼
+                                </h4>
+                            </div>
+                            <div class="join_box_container">
+                                <div class="join_box_wrap">
+                                    <div class="join_box_content">
+                                        <label>방 만들기 & 참여하기</label>
+                                        <div class="join_box_input">
+                                            <input id="roomUrlId" type="text" class="join_box_input_field" maxlength="50" placeholder="방 이름을 입력하세요." required/>
+                                            <button id="btn_join" class="join_btn">
+                                                <span>입장</span>
+                                            </button>
+                                        </div>
+                                        <button class="join_cls_btn"></button>
+                                    </div>
+                                    <div class="main_btn_wrap">
+                                        <button class="contact_sales_btn top_visual_btn">도입 문의</button>
+                                        <a href="javascript:void(0);" class="how_to_use_btn top_visual_btn">이용방법</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article class="contents_1_m">
+                <div class="contents_1_mobile">
+                    <div class="contents_1_mobile_img"></div>
+                </div>
+                <div class="main_section top_main_section">
+                    <div class="middle_container">
+                        <div class="top_text_group">
+                            <div class="top_first_text">
+                                <h4 class="top_title">
+                                    Korea No.1 Ontact 플랫폼
+                                    <br>
+                                    OHO! 플랫폼
+                                </h4>
+                            </div>
+                            <div class="join_box_container">
+                                <div class="join_box_wrap">
+                                    <div class="join_box_content">
+                                        <label>방 만들기 & 참여하기</label>
+                                        <div class="join_box_input">
+                                            <input id="roomUrlId" type="text" class="join_box_input_field" maxlength="50" placeholder="방 이름을 입력하세요." required/>
+                                            <button id="btn_join" class="join_btn">
+                                                <span>입장</span>
+                                            </button>
+                                        </div>
+                                        <button class="join_cls_btn"></button>
+                                    </div>
+                                    <div class="main_btn_wrap">
+                                        <button class="contact_sales_btn top_visual_btn">도입 문의</button>
+                                        <a href="javascript:void(0);" class="how_to_use_btn top_visual_btn">이용방법</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="contents_2" id="Solutions">
+                <div class="main_section_1 sec_01 tab_section" id="sec_selector" data-tab-view="1">
+                    <div class="section_01_tab">
+                        <div class="main_section_container">
+                            <ul>
+                                <li class="sec_tab sec_tab_01 selected">
+                                    <button class="tab_btn btn_01">회의</button>
+                                </li>
+                                <li class="sec_tab sec_tab_02 ">
+                                    <button class="tab_btn btn_02 ">교육</button>
+                                </li>
+                                <li class="sec_tab sec_tab_03">
+                                    <button class="tab_btn btn_03 ">라이브</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sec_01_tab_view">
+                        <div class="main_section_container_1">
+                            <section class="sec_01_tab_content" data-tab="1">
+                                <div class="tab_content_top">
+                                    <div class="visual_img_content">
+                                        <div class="visual_01"></div>
+                                        <div class="visual_02_wrap">
+                                            <div class="visual_02"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_visual_tx_group">
+                                        <h4 class="sec_01_tab_title">
+                                            전세계 어디서든 영상으로 <br/>연결하고 관리해보세요.
+                                        </h4>
+                                        <p class="visual_desc_tx tab_tx">
+                                            모두와 만나 비즈니스 제안서를 발표하고, <br> 화학 과제를 함께 하고, 아니면 그냥 얼굴을 보고 <br> 안부를 전할 수 있습니다. <br><br><br> 기업, 학교, 기타 조직은 도메인에 속한 최대 10만 명의 시청자를 대상으로 실시간 스트리밍을 <br> 진행할 수 있습니다.
+                                        </p>
+                                        
+                                        <button  class="contact_sales_btn_small">도입 문의</button>
+                                        
+                                    </div>
+
+                                    <div class="tab_visual_tx_group_m">
+                                        <h4 class="sec_01_tab_title">
+                                            전세계 어디서든 영상으로 <br/>연결하고 관리해보세요.
+                                        </h4>
+                                        <p class="visual_desc_tx tab_tx">
+                                            모두와 만나 비즈니스 제안서를 발표하고,  화학 과제를 함께 하고, 아니면 그냥 얼굴을 보고  안부를 전할 수 있습니다.  기업, 학교, 기타 조직은 도메인에 속한 최대 10만 명의 시청자를 대상으로 실시간 스트리밍을  진행할 수 있습니다.
+                                        </p>
+                                        
+                                        <button  class="contact_sales_btn_small">도입 문의</button>
+                                        
+                                    </div>
+                                </div>
+
+
+                                <div class="tab_content_bottom">
+                                    <h4 class="sec_01_tab_title tx_c">
+                                        OHO! 를 통해 <br> 사업에 집중할 수 있고 업무 효율성을 올릴 수 있습니다.
+                                    </h4>
+                                    <div class="tab_content_feature">
+                                        <ul>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_01_01"></div>
+                                                <h6 class="feature_title">회의 할 공간을 찾으시나요?
+                                                    <br>OHO!로 편하게 연결하세요</h6>
+                                                <p class="feature_tx">공간의 제약 없이 웹 URL 만 제공하면,
+                                                    <br> 바로 회의를  시작할 수 있습니다.</p>
+                                                    <p class="feature_tx_m">공간의 제약 없이 웹 URL 만 제공하면,
+                                                        <br> 바로 회의를  시작할 수 있습니다.</p>
+                                            </li>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_01_02"></div>
+                                                <h6 class="feature_title">운전으로 낭비하는 
+                                                    <br>시간을 절약하세요</h6>
+                                                <p class="feature_tx">시간에 쫓기는 대신 일에 시간을 집중할 수 
+                                                    있습니다. OHO!가 시간을 선물해 드립니다.</p>
+                                                    <p class="feature_tx_m">시간에 쫓기는 대신 일에 시간을 집중할 수 
+                                                        있습니다. <br> OHO!가 시간을 선물해 드립니다.</p>
+                                            </li>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_01_03"></div>
+                                                <h6 class="feature_title">사내 시스템에 화상회의를 <br>구축하고 연결해보세요</h6>
+                                                <p class="feature_tx">OHO! 플랫폼은 그룹웨어, ERP, 메신저 등의
+                                                    <br>회사 시스템과 함께 아주 쉽게 연동됩니다.</p>
+                                                    <p class="feature_tx_m">OHO! 플랫폼은 그룹웨어, ERP, 메신저 등의
+                                                        <br>회사 시스템과 함께 아주 쉽게 연동됩니다.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="sec_01_tab_content" data-tab="2">
+                                <div class="tab_content_top">
+                                    <div class="visual_img_content">
+                                        <div class="visual_02_wrap tab_edu">
+                                            <div class="visual_02 img_edu"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_visual_tx_group">
+                                        <h4 class="sec_01_tab_title">
+                                            미래 교육을 상상하고,<br/>교육 시장 점유율을 선점하세요.
+                                        </h4>
+                                        <p class="visual_desc_tx tab_tx">
+                                            오늘날 온라인 교육과 오프라인교육의 경계는사라지고 있습니다. 근미래에학생들은 대부분의 수업을 온라인으로 공부하게될 것입니다. OHO!를 사용하면 이런 미래교육플랫폼을 만들 수 있습니다. 
+                                        </p>
+                                        
+                                        <button  class="contact_sales_btn_small">도입 문의</button>
+                                        
+                                    </div>
+                                </div>
+                                <div class="tab_content_bottom">
+                                    <h4 class="sec_01_tab_title tx_c tab_feat">
+                                        반응형 온라인 수업을 통해<br>학생들에게 여러분의 지식을 나눠주세요.
+                                    </h4>
+                                    <div class="tab_content_feature">
+                                        <ul>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_02_01"></div>
+                                                <h6 class="feature_title">교실, 책상 그리고 의자가 없는<br>수업을 들어보셨나요?</h6>
+                                                <p class="feature_tx">노트북과 컨텐츠만 있다면, 학생들을 가르칠 수<br> 있습니다. 모든 학생들의 얼굴을 보면서요!</p>
+                                            </li>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_02_02"></div>
+                                                <h6 class="feature_title">단 한 번의 클릭이나 터치로<br>수업에 참석할 수 있습니다.</h6>
+                                                <p class="feature_tx">학생들에게 수업 URL을 공유하세요. PC, 태블<br>릿 또는 스마트폰을 통해 수업에 참여할 수 있습니다.</p>
+                                            </li>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_02_03"></div>
+                                                <h6 class="feature_title">교육 서비스 구축을 위한<br> 완벽한 도구</h6>
+                                                <p class="feature_tx">화이트보드, 화면 공유 그리고 문서 공유를<br> 사용하여 훌륭한 교육 서비스를 만들어보세요.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="sec_01_tab_content" data-tab="3">
+                                <div class="tab_content_top">
+                                    <div class="visual_img_content">
+                                        <div class="visual_02_wrap tab_live">
+                                            <div class="visual_02 img_live"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_visual_tx_group">
+                                        <h4 class="sec_01_tab_title">
+                                            디지털 혁신 시대에<br>라이브는 삶의 일부가<br>될 것 입니다.
+                                        </h4>
+                                        <p class="visual_desc_tx tab_tx">
+                                            TV처럼 단방향으로만 방송되는 미디어의 시대가 끝나가고 있습니다. OHO!는 대화형 라이브 플랫폼을 통해 고객을 직접 참여시킴으로써 제품 광고의 효율성을 극대화할 수 있습니다. 이제 여러분의<br>삶에 OHO!가 함께하겠습니다.
+                                        </p>
+                                        
+                                        <button  class="contact_sales_btn_small">도입 문의</button>
+                                        
+                                    </div>
+                                </div>
+                                <div class="tab_content_bottom">
+                                    <h4 class="sec_01_tab_title tx_c tab_feat">
+                                        OHO! 라이브에는 시청자가 없습니다.<br>여러분 모두가 곧 참가자입니다.
+                                    </h4>
+                                    <div class="tab_content_feature">
+                                        <ul>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_03_01"></div>
+                                                <h6 class="feature_title">최대 100000명까지,<br>100% 실시간 방송</h6>
+                                                <p class="feature_tx">방송과 채팅의 지연이 없는<br>100% 동기화를 경험해보세요.</p>
+                                            </li>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_03_02"></div>
+                                                <h6 class="feature_title">궁금한 것을 물어보고<br>라이브에 직접참여해보세요</h6>
+                                                <p class="feature_tx">참가자들은 실시간으로 질문할 수 있고,<br>질문들은 화면에 표시됩니다.</p>
+                                            </li>
+                                            <li class="feature_item">
+                                                <div class="feature_img icon_03_03"></div>
+                                                <h6 class="feature_title">Facebook, Youtube, Instagram<br>에 라이브를 공유하세요</h6>
+                                                <p class="feature_tx">더이상 SNS 플랫폼에 의존할 필요 없습니다.<br>OHO! 라이브를 사용한다면, 간편하게 모든 SNS 채널로 스트리밍할 수 있습니다.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            </article>
+
+            <article class="main_section_content" id="Features">
+                <div class="main_section_2 sec_02">
+                    <div class="main_section_container">
+                        <h4 class="sec_box_title">완벽한 실시간 영상 커뮤니케이션을 빠르게 사용할 수 있습니다.</h4>
+                        <h4 class="sec_box_title_768">완벽한 실시간 영상 커뮤니케이션을 <br> 빠르게 사용할 수 있습니다.</h4>
+                        <div class="sec_02_contents_desktop"  data-img-show="1">
+                            <div class="sec_02_left_content">
+                                <div class="sec_img_con_btn_rec">
+                                    <button class="sec_img_con_btn feature_01_btn btn_01 selected">
+                                        <h6>효과적인 커뮤니케이션</h6>
+                                        <p>녹화중 메모&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;API연동&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;커스터마이징<br>화면공유&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;파일공유&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;채팅&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</p>
+                                    </button>
+                                </div>
+                                <div class="sec_img_con_btn_rec">
+                                    <button class="sec_img_con_btn feature_01_btn btn_02">
+                                        <h6>편리한 기능</h6>
+                                        <p>카카오톡 초대   &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;    녹화  &nbsp;&nbsp;&nbsp;  |   &nbsp;&nbsp;  웹 브라우저 사용<br>참여자 리스트 &nbsp;&nbsp;   |  &nbsp;&nbsp;  마이크 컨트롤 &nbsp;&nbsp;</p>
+                                    </button>
+                                </div>
+                                <div class="sec_img_con_btn_rec">
+                                    <button class="sec_img_con_btn feature_01_btn btn_03">
+                                        <h6>화상 교육</h6>
+                                        <p>출석 체크 기능 &nbsp;&nbsp;  |  &nbsp;&nbsp; 북마크  &nbsp;&nbsp; | &nbsp;&nbsp;  교재 판서 강의<br>스마트펜 연동  &nbsp;&nbsp;&nbsp;  |  &nbsp;&nbsp;&nbsp;  필기내용공유</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sec_02_center_content" >
+                                <div class="sec_02_center_img_wrap" >
+                                    <div class="sec_02_center_img" ></div>                                
+                                </div>
+                            </div>
+                            <div class="sec_02_right_content">
+                                <div class="sec_img_con_btn_rec">
+                                    <button class="sec_img_con_btn feature_01_btn btn_04">
+                                        <h6>화상 면접</h6>
+                                        <p>시간알림기능 &nbsp;  | &nbsp; 면접자 얼굴 확인 &nbsp; | &nbsp;  면접결과 입력 <br><br> </p>
+                                    </button>
+                                </div>
+                                <div class="sec_img_con_btn_rec">
+                                    <button class="sec_img_con_btn feature_01_btn btn_05">
+                                        <h6>화상 A/S</h6>
+                                        <p>드로잉기능  &nbsp; |&nbsp;   접속자 얼굴확인 &nbsp;  |  &nbsp; 고화질 설정<br><br></p>
+                                    </button>
+                                </div>
+                                <div class="sec_img_con_btn_rec">
+                                    <button class="sec_img_con_btn feature_01_btn btn_06">
+                                        <h6>다양한 기능</h6>
+                                        <p>연결성 유지  &nbsp;  |  &nbsp;  핸드폰으로 참여 &nbsp;   |    &nbsp;내부 일정 방송<br>대규모회의 개최(최대 250명)</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="sec_02_contents_mobile"  data-img-show="2">
+                            <div class="sec_02_left_content_m">
+
+
+                                <div class="sec_img_con_btn_rec_m">
+                                    <div class="sec_02_center_img_wrap" >
+                                        <div class="sec_02_center_img center_img_1" >
+                                        </div>                                
+                                    </div>
+                                    <div class="sec_02_mobile_tx_all">
+                                    <p class="sec_02_mobile_tx_title">효과적인 커뮤니케이션</p>
+                                    <p class="sec_02_mobile_sub_tx">녹화중 메모&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;API연동&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;커스터마이징<br>&nbsp;화면공유&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;파일공유&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;채팅&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                                </div>
+
+
+                                <div class="sec_img_con_btn_rec_m">
+                                    <div class="sec_02_center_img_wrap" >
+                                        <div class="sec_02_center_img center_img_2" ></div>                                
+                                    </div>
+                                    <div class="sec_02_mobile_tx_all">
+                                        <p class="sec_02_mobile_tx_title">편리한 기능</p>
+                                        <p class="sec_02_mobile_sub_tx">카카오톡 초대   &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;    녹화  &nbsp;&nbsp;&nbsp;  |   &nbsp;&nbsp;  웹 브라우저 사용<br>참여자 리스트 &nbsp;&nbsp;   |  &nbsp;&nbsp;  마이크 컨트롤 &nbsp;&nbsp;</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="sec_img_con_btn_rec_m">
+                                    <div class="sec_02_center_img_wrap" >
+                                        <div class="sec_02_center_img center_img_3" ></div>                                
+                                    </div>
+                                    <div class="sec_02_mobile_tx_all">
+                                        <p class="sec_02_mobile_tx_title">화상 교육</p>
+                                        <p class="sec_02_mobile_sub_tx">출석 체크 기능 &nbsp;&nbsp;  |  &nbsp;&nbsp; 북마크  &nbsp;&nbsp; | &nbsp;&nbsp;  교재 판서 강의<br>스마트펜 연동  &nbsp;&nbsp;&nbsp;  |  &nbsp;&nbsp;&nbsp;  필기내용공유</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="sec_img_con_btn_rec_m">
+                                    <div class="sec_02_center_img_wrap" >
+                                        <div class="sec_02_center_img center_img_4" ></div>                                
+                                    </div>
+                                    <div class="sec_02_mobile_tx_all">
+                                        <p class="sec_02_mobile_tx_title">화상 면접</p>
+                                        <p class="sec_02_mobile_sub_tx">시간알림기능 &nbsp;  | &nbsp; 면접자 얼굴 확인 &nbsp; | &nbsp;  면접결과 입력 <br><br> </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="sec_img_con_btn_rec_m">
+                                    <div class="sec_02_center_img_wrap" >
+                                        <div class="sec_02_center_img center_img_5" ></div>                                
+                                    </div>
+                                    <div class="sec_02_mobile_tx_all">
+                                        <p class="sec_02_mobile_tx_title">화상 A/S</p>
+                                        <p class="sec_02_mobile_sub_tx">드로잉기능  &nbsp; |&nbsp;   접속자 얼굴확인 &nbsp;  |  &nbsp; 고화질 설정<br><br></p>
+                                    </div>
+                                </div>
+
+
+                                <div class="sec_img_con_btn_rec_m">
+                                    <div class="sec_02_center_img_wrap" >
+                                        <div class="sec_02_center_img center_img_6" ></div>                                
+                                    </div>
+                                    <div class="sec_02_mobile_tx_all">
+                                        <p class="sec_02_mobile_tx_title">다양한 기능</p>
+                                        <p class="sec_02_mobile_sub_tx">연결성 유지  &nbsp;  |  &nbsp;  핸드폰으로 참여 &nbsp;   |    &nbsp;내부 일정 방송<br>대규모회의 개최(최대 250명)</p>
+                                    </div>
+                                </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                </article>
+
+
+                <article class="main_section_content">
+                    <div class="main_section sec_04">
+                        <div class="main_section_container">
+                            <div class="visual_tx_group sec_04_tx_all">
+                                <h4 class="sec_01_tab_title">OHO! Open API로 <br>사용자에게 차질없는<br>계획을 도와드립니다</h4>
+                                <p class="visual_tx with_visual">
+                                    이 사진은 OHO!의 실제 라이브 방송 플랫폼입니다.
+50만명 이상 참여 가능한 플랫폼을 활성화시키고
+상품을 판매 할 수 있습니다.
+송출시간 지연 없이 고객의 실시간 피드백이 가능해 
+거리감 없는 생생한 방송이 가능합니다. 
+                                </p>
+                                
+                                <button class="contact_sales_btn_small">지금 문의하기</button>
+                                
+                            </div>
+                            <div class="sec_04_visual">
+                                <img src="images/shopping.png" />
+                                <p class="visual_tx_m with_visual_m">
+                                    이 사진은 OHO!의 실제 라이브 방송 플랫폼입니다.
+50만명 이상 참여 가능한 플랫폼을 활성화시키고
+상품을 판매 할 수 있습니다.
+송출시간 지연 없이 고객의 실시간 피드백이 가능해 
+거리감 없는 생생한 방송이 가능합니다. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="main_section_content">
+                    <div class="main_section sec_03 sec_03_all">
+                        <div class="main_section_container">
+                            <h4 class="sec_box_title dark">의료 서비스를 위한 특별한 기능도 준비되어 있습니다.</h4>
+                            <h4 class="sec_box_title_m dark_m">의료 서비스를 위한 특별한 기능도 <br> 준비되어 있습니다.</h4>
+                            <div class="sec_03_contents_desktop" data-img-show="1">
+                                <div class="sec_03_content_img">
+                                    <div class="sec_03_center_img_wrap">
+                                        <div class="sec_03_center_img"></div>
+                                    </div>
+                                </div>
+                                <ul class="sec_03_content_btns">
+                                    <li>
+                                        <button class="sec_img_con_btn feature_02_btn sec_03 dark btn_01 selected">
+                                            <h6>원격 의료</h6>
+                                            <p>
+                                                의사, 환자 및 전문가에게
+                                                연결할 <br>수 있습니다.</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="sec_img_con_btn feature_02_btn sec_03 dark btn_02">
+                                            <h6>협력적 의료</h6>
+                                            <p>참가자와 이미지 및 테스트 결과 <br>
+                                                화면을 쉽게 공유할 수 있습니다. </p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="sec_img_con_btn feature_02_btn sec_03 dark btn_03">
+                                            <h6>의료 교육</h6>
+                                            <p>
+                                                지속적인 트레이닝을 통해<br>
+                                                직원 출장을 줄일 수 있습니다.</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="sec_img_con_btn feature_02_btn sec_03 dark btn_04">
+                                            <h6>가상 정신 건강</h6>
+                                            <p>
+                                                정신 건강프로그램을 확장 할 수 <br> 있습니다.</p>
+                                        </button>
+                                    </li>
+                                </ul>
+
+
+    
+                                </div>
+
+                                <div class="sec_03_contents_desktop_mobile" id="sec_03_mobile" data-img-show="1">
+
+                                    <div class="sec_03_content_img sec_img_con_btn_rec_m">
+                                        <div class="sec_03_center_img_wrap">
+                                            <div class="sec_03_center_img sec_03_mobile_center_1"></div>
+                                        </div>
+                                        <div class="sec_03_mobile_tx_all">
+                                            <p class="sec_03_mobile_tx_title">원격 의료</p>
+                                            <p class="sec_03_mobile_sub_tx">의사, 환자 및 전문가에게
+                                                연결할 <br>수 있습니다.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sec_03_content_img sec_img_con_btn_rec_m">
+                                        <div class="sec_03_center_img_wrap">
+                                            <div class="sec_03_center_img sec_03_mobile_center_2"></div>
+                                        </div>
+                                        <div class="sec_03_mobile_tx_all">
+                                            <p class="sec_03_mobile_tx_title">협력적 의료</p>
+                                            <p class="sec_03_mobile_sub_tx">참가자와 이미지 및 테스트 결과 <br>
+                                                화면을 쉽게 공유할 수 있습니다.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sec_03_content_img sec_img_con_btn_rec_m">
+                                        <div class="sec_03_center_img_wrap">
+                                            <div class="sec_03_center_img sec_03_mobile_center_3"></div>
+                                        </div>
+                                        <div class="sec_03_mobile_tx_all">
+                                            <p class="sec_03_mobile_tx_title">의료 교육</p>
+                                            <p class="sec_03_mobile_sub_tx">
+                                                지속적인 트레이닝을 통해<br>
+                                                직원 출장을 줄일 수 있습니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="sec_03_content_img sec_img_con_btn_rec_m">
+                                        <div class="sec_03_center_img_wrap">
+                                            <div class="sec_03_center_img sec_03_mobile_center_4"></div>
+                                        </div>
+                                        <div class="sec_03_mobile_tx_all">
+                                            <p class="sec_03_mobile_tx_title">가상 정신 건강</p>
+                                            <p class="sec_03_mobile_sub_tx">정신 건강프로그램을 확장 할 수 <br> 있습니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="main_section_content">
+                    <div class="main_section sec_05 sec_05_all">
+                        <div class="main_section_container">
+                            <div class="visual_tx_group_2 sec_05_1">
+                                <h4 class="sec_02_tab_title">OHO! 는 협업에 기여할 수 있게 최적화 된 서비스 입니다.</h4>
+                            </div>
+                            <div class="sec_05_visual">
+                                <img src="images/contract.jpg" />
+                                <img src="images/workhome.jpg">
+                                <img src="images/learning.jpg">
+                                <img src="images/conference.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="main_section_content team_crew" id="company">
+                    <div class="main_section sec_06 company_introduce">
+                        <div class="main_section_container">
+                            <div class="visual_tx_group sec_06 sec_06_all">
+                                <h4 class="visual_title color_white">OHO!는 <br>
+                                    여러분을 위한 것입니다.</h4>
+                                <p class="visual_tx color_white">
+                                    OHO!은 사용자가 연결하고, 커뮤니케이션하고, <br>아이디어를 표현함으로써 모두가 함께 더 많은 일을 <br>성취할 수 있도록 지원합니다. <br>수백만의 대기업, 중소기업 및 여러분과 같은 <br>수많은 개인 사용자의 신뢰를 받고 있다는 것이 자랑스럽습니다.
+                                </p>
+                                
+                                <button  class="contact_sales_btn_small">지금 문의하기</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="main_section_content use_guide_content">
+                    <div class="main_section sec_media_guide">
+                        <div class="main_section_container">
+                            <h4 class="sec_box_title dark">OHO!의 사용법을 동영상으로 손쉽게 배워보세요</h4>
+                            <h4 class="sec_box_title_545">OHO!의 사용법을 동영상으로 <br> 손쉽게 배워보세요</h4>
+                            <div class="guide_video_container guide_padding_size">
+                                <ul>
+                                    <li class="guide_video">
+                                        <a href="javascript:void(0);" target="_blank" class="video_btn btn_1">
+                                            <img src="images/login.png" class="video_btn_img img_01" alt="로그인/방만들기" />
+                                            <div class="video_btn_cover"></div>
+                                            <div class="video_btn_tx">
+                                                <h6>로그인 / 방만들기</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="guide_video">
+                                        <a href="javascript:void(0);" target="_blank" class="video_btn btn_2">
+                                            <img src="images/invite.png" class="video_btn_img img_02" alt="초대/입장하기" />
+                                            <div class="video_btn_cover"></div>
+                                            <div class="video_btn_tx">
+                                                <h6>초대 / 입장하기</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="guide_video">
+                                        <a href="javascript:void(0);" target="_blank" class="video_btn btn_3">
+                                            <img src="images/share.png" class="video_btn_img img_03" alt="문서/화면 공유하기" />
+                                            <div class="video_btn_cover"></div>
+                                            <div class="video_btn_tx">
+                                                <h6>문서 / 화면 공유하기</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="guide_video">
+                                        <a href="javascript:void(0);" target="_blank" class="video_btn btn_4">
+                                            <img src="images/setting.png" class="video_btn_img img_04" alt="레이아웃/권한 설정하기" />
+                                            <div class="video_btn_cover"></div>
+                                            <div class="video_btn_tx">
+                                                <h6>레이아웃 / 권한 설정하기</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="guide_manual_download">
+                                <h4 class="detail_menu_tx">더 자세한 사용법은 매뉴얼을 통해<br>안내해드리겠습니다.</h4>
+                                <div class="manual_download_sec">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn kor pc_manual">PC 사용자 매뉴얼</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn kor mobile_manual">스마트폰 사용자 매뉴얼</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn edu_t_manual">for education 교사용</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn edu_s_manual">for education 학생용</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="main_section_content faq_content" id="faq">
+                    <div class="main_section faq_sec">
+                        <div class="main_section_container">
+                            <div class="visual_tx_group">
+                                <h4 class="visual_title">자주 묻는 질문</h4>
+                            </div>
+                            <div class="faq_con_list">
+                                <ul>
+                                    <li class="faq_con_item faq_item_1" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>방에 입장이 안되고 계속 로딩 화면만 나옵니다.</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a"> Step1.
+                                            쿠키나 캐시를 삭제하고 브라우저를 최신 버전으로 업데이트 해주세요.
+                                            
+                                            ※ 쿠키삭제방법
+                                            
+                                            [ 아이폰 ]
+                                            설정 - Safari - 방문 기록 및 웹 사이트 데이터 지우기
+                                            
+                                            <br> [ 안드로이드 ]
+                                            크롬 앱 실행 후 우측 상단(점3개) 터치 - 설정 - 개인정보 보호 - 인터넷 사용 기록 삭제 - 기간 : 전체기간 - 아래 항목 전체 체크 - 인터넷 사용 기록 삭제<br><br>
+                                            
+                                            Step2.
+                                            크롬 확장 프로그램에 들어가서 adblock 등 block 하는 프로그램이 설치되어 있는 경우 삭제 해주세요.
+                                            
+                                            Step3.
+                                            다시 OHO!에 접속해주세요. <br><br>
+                                            
+                                            Step4.
+                                            문제가 해결이 안 될 경우 크롬 브라우저에서 Ctrl+Shilft+I를 누르고 2번째 [ Console ] 메뉴 화면을 cs_maaltalk@dial070.co.kr로 보내주세요. <br><br>
+                                            
+                                            Step5.
+                                            크롬 브라우저 외에 firefox, Safari 에서도 가능하니 해당 브라우저를 이용해 주세요.</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_2" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>OHO!와 스마트 펜은 어떻게 연결하나요?</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">Step1.
+                                            Window 장치 관리자에서 Bluetooth가 켜져 있는지 확인해 주세요. <br><br>
+                                            
+                                            Step2.
+                                            OHO! 접속 후 공유하기(필기 내용 공유, 파일공유) 화면에서 Pen 전원 버튼을 켜주세요. <br><br>
+                                            
+                                            Step3.
+                                            오른쪽 하단 Pen connect 버튼을 클릭해 주세요. <br><br>
+                                            
+                                            Step4.
+                                            왼쪽 상단 화면에서 검색된 스마트 펜을 페어링 해주시면 됩니다.
+                                            </div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_3" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>OHO!와 스마트 펜이 연결되지 않아요.</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">Step1.
+                                            Window 장치 관리자에서 Bluetooth가 켜져 있는지 확인해 주세요. <br><br>
+                                            
+                                            Step2.
+                                            Bluetoothr가 켜져 있다면 스마트 펜 전원을
+                                            켜주시고 파란불이 들어왔는지 확인해 주세요. 불이 들어오지 않으면 건전지를 교체하시고, 그래도 불이 들어오지 않으면 기기에 이상이 있을 수 있습니다.</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_4" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>이메일이 인증되지 않습니다.</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">메일함에 인증 메일이 없다면 스팸메일함을 확인해주세요. 미인증 계정으로 로그인 시 메일을 재발송 해드리오니 메일함을 재확인 해주세요. 그래도 메일이 오지 않으시거나 인증이 정상적으로 되지 않으실 경우 SeeUhelp@naver.com로 문의주세요.</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_5" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>누가 회의를 녹화 할 수 있습니까?</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">회의 주최자만 녹화 할 수 있습니다. <br>
+                                            ※ 녹화는 [ 최대 14일 ] 까지만 보관됩니다.</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_6" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>회의에 인원들을 초대하려면 어떻게 합니까?</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">회의방 입장 > 좌측 하단 Invite 버튼 클릭 <br>
+
+                                            카카오톡으로 링크 전송:
+                                            1. 복사 버튼을 클릭하신후 카카오톡으로 링크를 전달해주세요. <br>
+                                            
+                                            이메일로 링크 전송:
+                                            1. 이메일 입력 후 초대하기 버튼 클릭
+                                            2. 그룹메일로 초대할 경우 회의방 링크를 복사 후 본인 메일에서 직접 그룹메일로 보내주셔야 합니다</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_7" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>OHO!는 어떤 웹 브라우저를 지원합니까?</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">Window PC:
+                                            Chrome(권장), Firefox 및 Opera <br>
+                                            
+                                            Mac:
+                                            Safari (11 버전 이상) <br>
+                                            
+                                            iOS :
+                                            Safari (11 버전 이상) <br>
+                                            
+                                            Android OS :
+                                            Chrome (80 버전 이상) <br>
+                                            
+                                            지원불가 :
+                                            IE, Edge, 카카오톡 내장 브라우저, 네이버 브라우저 등</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_8" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>엔터프라이즈 계약 절차가 어떻게 되나요?</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">엔터프라이즈의 경우 간단한 서비스 사용계약 후 1개월 단위로 계약을 하게 됩니다. 계약은 전자계약 서면계약 모두 가능합니다.</div>
+                                    </li>
+                                    <li class="faq_con_item faq_item_9" data-show="false">
+                                        <div class="faq_con_item_q faq_btn">
+                                            <span>엔터프라이즈 요금제의 선생님 모드는 무엇인가요?</span>
+                                            <div class="faq_btn_ico"></div>
+                                        </div>
+                                        <div class="faq_con_item_a">현재 체험해볼 수 있는 OHO! for Education 기능입니다. 2시간 무료 체험이 가능합니다.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                
+                <article class="main_section_content contact_us" id="sales">
+                    <div class="main_section sec_08 contact_sales" data-form-type="sales">
+                        <div class="main_section_container">
+                            <div class="visual_tx_group white_tx">
+                                <h4 class="visual_title color_white">기술 지원 문의</h4>
+
+                                <div class="contact_forms">
+                                <div class="contact_form technical_support_form">
+                                    <div class="form_contents_group">
+                                        <div class="form_content">
+                                            <input type="text" class="form_input_field" id="technical_support_email" required />
+                                            <span class="form_input_bar"></span>
+                                            <span class="form_focus_bar"></span>
+                                            <label class="form_input_label">회사 이메일</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" class="form_input_field" id="technical_support_phone" required />
+                                            <span class="form_input_bar"></span>
+                                            <span class="form_focus_bar"></span>
+                                            <label class="form_input_label">전화번호</label>
+                                        </div>
+                                        <div class="form_content">
+                                            <input type="text" class="form_input_field" id="technical_support_subject" required />
+                                            <span class="form_input_bar"></span>
+                                            <span class="form_focus_bar"></span>
+                                            <label class="form_input_label">제목</label>
+                                        </div>
+                                        <div class="form_content text_area">
+                                            <textarea type="text" class="form_text_field" id="technical_support_problem" required></textarea>
+                                            <span class="form_input_bar"></span>
+                                            <span class="form_focus_bar"></span>
+                                            <label class="form_input_label">내용을 기입해주세요.</label>
+                                        </div>
+                                        
+                                    </div>
+                                    <button id="btn_technical_support_send" class="form_submit_btn">문의</button>
+                                </div>
+                                <div class="contact_us_contents">
+                                    <h6 class="form_title white">연락 정보</h6>
+                                    <div class="contact_group">
+                                        <dl class="contact_content">
+                                            <dt>주소</dt>
+                                            <dd>서울시 영등포구 양평로12길 10-8</dd>
+                                        </dl>
+                                        <dl class="contact_content">
+                                            <dt>이메일</dt>
+                                            <dd>OHOhelp@naver.com</dd>
+                                        </dl>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="guide_manual_download contact_section">
+                                <h4 class="">더 자세한 사용법은 매뉴얼을 통해<br>안내해드리겠습니다.</h4>
+                                <div class="manual_download_sec">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn contact_section kor pc_manual" >PC 사용자 매뉴얼</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn contact_section kor mobile_manual" >스마트폰 사용자 매뉴얼</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn contact_section edu_t_manual" >for education 교사용</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="manual_download_btn contact_section edu_s_manual" >for education 학생용</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <footer class="main_footer">
+                    <div class="main_section_container">
+                        <div class="main_footer_wrap">
+                            <section class="footer_content company">
+                                <h4 class="company_name"><a href="index.html"><img src="images/footer_logo.png" alt=""></a></h4>
+                                <address>서울시 영등포구 양평로12길 10-8</address>
+                                <p class="company_reg_num">사업자 등록번호 : 123 -45 -12345</p>
+                                <p class="company_reg_num">대표: 이승민</p>
+                            </section>
+                            <section class="footer_content footer_menu">
+                                <ul>
+                                    <li>
+                                        <a href="#Solutions">솔루션</a>
+                                    </li>
+                                    <li>
+                                        <a href="#Features">기능</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#Pricing">요금</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a class="nav_btn open_api" onclick="window.open('../../../test/api/API.html', 'OPEN_API')">Open API</a>
+                                    </li>
+                                    <li>
+                                        <a href="#company">기업정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="#sales">고객지원</a>
+                                    </li>
+                                    <li>
+                                        
+                                            
+                                                <a href="javascript:void(0);" target="_blank">이용방법</a>
+                                            
+                                            
+                                            
+                                        
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="footer_content contact">
+                                <dl class="contact_content">
+                                    <dt>이메일</dt>
+                                    <dd>OHOhelp@naver.com</dd>
+                                </dl>
+                                <dl class="contact_content">
+                                    <dt>전화번호</dt>
+                                    <dd><a href="tel:1633-7777">1633-7777</a></dd>
+                                </dl>
+                                <dl class="contact_content lang">
+                                    <dd class="lang">
+                                        <select class="language_select_box">
+                                            <option value="ko">한국어</option>
+                                            <option value="en">ENG</option>
+                                            <option value="ja">日本語</option>
+                                            <option value="zh">简化字</option>
+                                            <option value="ch">正體字</option>
+                                            <option value="es">español</option>
+                                            <option value="ar">بالعربي</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+                            </section>
+                        </div>
+                    </div>
+                </footer>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="js/load.js"></script>
+</body>
+</html>
