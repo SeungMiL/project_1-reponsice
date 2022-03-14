@@ -3,7 +3,7 @@
 * 웹
 ![웹 OHO!](https://user-images.githubusercontent.com/89256060/158193439-c69b7159-c4c8-43fc-b6d8-10a0fc749d66.JPG)
 
-* 모바일
+* 모바일 <
 ![모바일 OHO!](https://user-images.githubusercontent.com/89256060/158193434-ee085291-1778-4e74-8139-4d5943a5b867.JPG)
 
 
